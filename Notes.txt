@@ -1,1 +1,9 @@
 - synchronized: Garante que o processamento não seja interrompido durante o multithreading.
+
+- Stage functions:
+1 - stageName.setTitle("titulo"): define o titulo da janela;
+2 - stageName.setScene(new Scene(nome do painel criado));
+3 - stageName.setResizable(true | false): informa se a janela pode ser redimensionada;
+4 - stageName.initOwner(stagePai): indica quem é o stage pai da janela;
+5 - stageName.initModality(Modality.WINDOW_MODAL | Modality.APPLICATION_MODAL): Indica se a janela será modal ou terá outro comportamento;
+6 - stageName.showAndWait(): É a função para mostrar a tela e aguardar as ações a serem realizadas.
